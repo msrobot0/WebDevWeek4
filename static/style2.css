@@ -1,0 +1,145 @@
+* {
+    padding: 0;
+    margin: 0;
+    line-height:normal;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+    font-size: 18px;
+
+}
+
+body{
+    background-color:#f0e8df;
+    font-family: 'Federo', sans-serif;
+    line-height: 1.2;
+
+}
+
+a.nav-link {
+    color:rgb(238, 248, 248);
+    text-decoration: none;
+}
+
+a.nav-link:hover {
+    color:rgb(239, 241, 79);
+}
+
+a.nav-link span {
+    opacity: 0;
+}
+
+a.nav-link:hover span {
+    opacity: 1;
+}
+
+#wrapper{
+    background:rgb(186, 213, 228);
+    min-height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+
+}
+
+nav{
+    background:rgb(164, 168, 201);
+    padding: 20px;
+    font-size: 1.2em;
+
+}
+header{
+     background-image:url(Images/img03.jpg);
+     height:400px;
+     background-repeat:no-repeat;
+     background-size:cover;
+     background-position: 50% 35%;
+      
+}
+header h1{
+     font-family: 'Federo', sans-serif;
+     text-align: center;
+     font-size: 8em;
+     color:white;
+     letter-spacing: 0.05em;
+     padding-top: 0.7em; 
+     text-shadow: 8px 8px 20px rgba(0, 0, 0, 0.678);
+}
+
+header.lagoon {
+    background-image:url(Images/bluelagoon.jpg);
+   
+     
+}
+.lagoon h1{
+    font-family: 'Federo', sans-serif;
+    text-align: center;
+    font-size: 6em;
+    color:white;
+    letter-spacing: 0.05em;
+    padding-top: 1em; 
+    text-shadow: 8px 8px 20px rgba(0, 0, 0, 0.678);
+   
+}
+   
+
+
+main{
+    background:lightsteelblue;
+    padding:20px;
+    display:flex;
+
+}
+
+main section {
+    border-width:5px;
+    border-color: rgb(90, 60, 145);
+    border-style: double;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    /*flex-grow: 1;*/
+    
+}
+
+main aside {
+    background:rgb(219, 235, 241);
+    padding: 40px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+
+section h2{
+    color: white;
+}
+
+.container {
+    display: flex;
+    height: 220px; 
+    overflow: auto; 
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+img {height: 220px; width: 360px;
+    float: left;
+}
+
+
+
+footer{
+    background:rgb(164, 168, 201);
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+
+}
+
+footer p {
+    color:rgb(238, 248, 248);
+}
